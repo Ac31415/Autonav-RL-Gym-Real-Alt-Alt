@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../nmpc_lbf"
+		},
+		{
+			"path": "../NMPC-LBF"
+		},
+		{
+			"path": "../ros_autonomous_slam"
+		},
+		{
+			"path": "../ros_numpy"
+		},
+		{
+			"path": "../Turtlebot-Navigation-based-on-DRL"
+		},
+		{
+			"path": "../../Autonav-RL-Gym"
+		},
+		{
+			"name": "Autonav-RL-Gym-Real",
+			"path": "."
+		},
+		{
+			"path": "../turtlebot3_machine_learning"
+		},
+		{
+			"path": "../../../../../media/wen-chung/ExtremePro/catkin_noetic_ws/src/Autonav-RL-Gym-Real-Alt"
+		}
+	]
+}

@@ -1,0 +1,1000 @@
+ 1018  ./launch.sh test ppo -100 real 10 1
+ 1019  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1020  ./launch.sh test ppo -100 real 10 1
+ 1021  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1022  ./launch.sh test ppo -100 real 10 1
+ 1023  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1024  ./launch.sh test ppo -100 real 10 1
+ 1025  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1026  ./launch.sh test ppo -100 real 10 1
+ 1027  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1028  ./launch.sh test ppo -100 real 10 1
+ 1029  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1030  ./launch.sh test ppo -100 real 10 1
+ 1031  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1032  ./launch.sh test ppo -100 real 10 1
+ 1033  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1034  ./launch.sh test ppo -100 real 10 1
+ 1035  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1036  ./launch.sh test ppo -100 real 10 1
+ 1037  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1038  ./launch.sh test ppo -100 real 5 1
+ 1039  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1040  ./launch.sh test ppo -100 real 5 1
+ 1041  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1042  ./launch.sh test ppo -100 real 5 1
+ 1043  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1044  ./launch.sh test ppo -100 real 5 1
+ 1045  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1046  ./launch.sh test ppo -100 real 5 1
+ 1047  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1048  ./launch.sh test ppo -100 real 5 1
+ 1049  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1050  ./launch.sh test ppo -100 real 5 1
+ 1051  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1052  ./launch.sh test ppo -100 real 5 1
+ 1053  ./launch.sh test ppo -100 real 10 1
+ 1054  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1055  ./launch.sh test ppo -100 real 10 1
+ 1056  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1057  ./launch.sh test ppo -100 real 10 1
+ 1058  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1059  ./launch.sh test ppo -100 real 6 1
+ 1060  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1061  ./launch.sh test ppo -100 real 6 1
+ 1062  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1063  ./launch.sh train ppo -100 real 6 1
+ 1064  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1065  ./launch.sh train ppo -100 real 11 1
+ 1066  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1067  ./launch.sh train ppo -100 real 11 1
+ 1068  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1069  ./launch.sh train ppo -100 real 6 1
+ 1070  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1071  ./launch.sh train ppo -100 real 6 1
+ 1072  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1073  ./launch.sh train ppo -100 real 6 1
+ 1074  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1075  ./launch.sh train ppo -100 real 6
+ 1076  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1077  ./launch.sh train ppo -100 real 6
+ 1078  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1079  ./launch.sh train ppo -100 real 6
+ 1080  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1081  ./launch.sh train ppo -100 real 6 1
+ 1082  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1083  ./launch.sh train ppo -100 real 6 1
+ 1084  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1085  ./launch.sh train ppo -100 real 6 1
+ 1086  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1087  ./launch.sh train ppo -100 real 6 1
+ 1088  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1089  ./launch.sh train ppo -100 real 6 1
+ 1090  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1091  ./launch.sh train ppo -100 real 6 1
+ 1092  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1093  ./launch.sh train ppo -100 real 6 1
+ 1094  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1095  ./launch.sh train ppo -100 real 6 1
+ 1096  roslaunch project training_sim_to_real_env.launch run_type:=train
+ 1097  roslaunch project training_sim_to_real_env_trgppo.launch run_type:=train
+ 1098  rosclean purge
+ 1099  roslaunch project training_sim_to_real_env_trgppo.launch run_type:=train agent:=trgppo env_id:=-100 load_ep:=0 max_ep:=100
+ 1100  history > trgppo_training.txt
+ 1101  ./launch.sh train ppo -100 sim 1450 1
+ 1102  ./launch.sh train ppo -100 real 10 1
+ 1103  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1104  ./launch.sh train ppo -100 real 10 1
+ 1105  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1106  ./launch.sh train ppo -100 real 10 1
+ 1107  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1108  ./launch.sh train ppo -100 real 10 1
+ 1109  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1110  ./launch.sh train ppo -100 real 10 1
+ 1111  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1112  ./launch.sh train ppo -100 real 10
+ 1113  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1114  ./launch.sh train ppo -100 real 10
+ 1115  ./launch.sh train ppo -100 real 10 1
+ 1116  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1117  ./launch.sh train ppo -100 real 10 1
+ 1118  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1119  ./launch.sh test ppo -100 real 10 1
+ 1120  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1121  ./launch.sh test ppo -100 real 10 1
+ 1122  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1123  ./launch.sh test ppo -100 real 10 1
+ 1124  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1125  ./launch.sh test ppo -100 real 10 1
+ 1126  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1127  ./launch.sh test ppo -100 real 10 1
+ 1128  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1129  ./launch.sh test ppo -100 real 10 1
+ 1130  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1131  ./launch.sh test ppo -100 real 10 1
+ 1132  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1133  ./launch.sh test ppo -100 real 10 1
+ 1134  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1135  ./launch.sh test ppo -100 real 10 1
+ 1136  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1137  ./launch.sh test ppo -100 real 10 1
+ 1138  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1139  ./launch.sh test ppo -100 real 10 1
+ 1140  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1141  ./launch.sh test ppo -100 real 10 1
+ 1142  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1143  ./launch.sh test ppo -100 real 10 1
+ 1144  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1145  ./launch.sh test ppo -100 real 10 1
+ 1146  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1147  ./launch.sh test ppo -100 real 10 1
+ 1148  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1149  ./launch.sh test ppo -100 real 10 1
+ 1150  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1151  ./launch.sh test ppo -100 real 10 1
+ 1152  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1153  ./launch.sh test ppo -100 real 10 1
+ 1154  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1155  ./launch.sh test ppo -100 real 10 1
+ 1156  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1157  ./launch.sh test ppo -100 real 10 1
+ 1158  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1159  ./launch.sh test ppo -100 real 10 1
+ 1160  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1161  ./launch.sh test ppo -100 real 10 1
+ 1162  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1163  ./launch.sh test ppo -100 real 10 1
+ 1164  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1165  ./launch.sh test ppo -100 real 10 1
+ 1166  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1167  ./launch.sh test ppo -100 real 10 1
+ 1168  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1169  ./launch.sh test ppo -100 real 10 1
+ 1170  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1171  ./launch.sh test ppo -100 real 10 1
+ 1172  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1173  ./launch.sh test ppo -100 real 10 1
+ 1174  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1175  ./launch.sh test ppo -100 real 10 1
+ 1176  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1177  ./launch.sh test ppo -100 real 10 1
+ 1178  ./launch.sh test ppo -100 real 20 1
+ 1179  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1180  ./launch.sh test ppo -100 real 20 1
+ 1181  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1182  ./launch.sh test ppo -100 real 10 1
+ 1183  ./launch.sh train ppo -100 real 20
+ 1184  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1185  ./launch.sh train ppo -100 real 20 1
+ 1186  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1187  ./launch.sh train ppo -100 real 20 1
+ 1188  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1189  ./launch.sh train ppo -100 real 20 1
+ 1190  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1191  ./launch.sh train ppo -100 real 3 1
+ 1192  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1193  ./launch.sh train ppo -100 real 20 1
+ 1194  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1195  ./launch.sh train ppo -100 real 20 1
+ 1196  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1197  ./launch.sh train ppo -100 real 20 1
+ 1198  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1199  ./launch.sh train ppo -100 real 20 1
+ 1200  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1201  ./launch.sh train ppo -100 real 20 1
+ 1202  ./launch.sh train ppo -100 real 21 1
+ 1203  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1204  ./launch.sh train ppo -100 real 20 1
+ 1205  ./launch.sh train ppo -100 real 5
+ 1206  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1207  ./launch.sh train ppo -100 real 5 1
+ 1208  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1209  ./launch.sh train ppo -100 real 5 1
+ 1210  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1211  ./launch.sh train ppo -100 real 4 1
+ 1212  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1213  ./launch.sh train ppo -100 real 4 1
+ 1214  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1215  ./launch.sh train ppo -100 real 4 1
+ 1216  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1217  ./launch.sh train ppo -100 real 4 1
+ 1218  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1219  ./launch.sh train ppo -100 real 4 1
+ 1220  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1221  ./launch.sh train ppo -100 real 4 1
+ 1222  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1223  ./launch.sh train ppo -100 real 4 1
+ 1224  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1225  ./launch.sh train ppo -100 real 1 1
+ 1226  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1227  ./launch.sh train ppo -100 real 10
+ 1228  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1229  ./launch.sh train ppo -100 real 10 1
+ 1230  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1231  ./launch.sh train ppo -100 real 9 1
+ 1232  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1233  ./launch.sh train ppo -100 real 10 1
+ 1234  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1235  ./launch.sh train ppo -100 real 8 1
+ 1236  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1237  ./launch.sh train ppo -100 real 10 1
+ 1238  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1239  ./launch.sh train ppo -100 real 10 1
+ 1240  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1241  ./launch.sh train ppo -100 real 10 1
+ 1242  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1243  ./launch.sh train ppo -100 real 10 1
+ 1244  ./launch.sh train ppo -100 real 8 1
+ 1245  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1246  ./launch.sh train ppo -100 real 8 1
+ 1247  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1248  ./launch.sh test ppo -100 real 10 1
+ 1249  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1250  ./launch.sh test ppo -100 real 10 1
+ 1251  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1252  ./launch.sh test ppo -100 real 15 1
+ 1253  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1254  ./launch.sh test ppo -100 real 15 1
+ 1255  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1256  ./launch.sh test ppo -100 real 15 1
+ 1257  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1258  ./launch.sh test ppo -100 real 8 1
+ 1259  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1260  ./launch.sh test ppo -100 real 15 1
+ 1261  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1262  ./launch.sh test ppo -100 real 5 1
+ 1263  ./launch.sh test ppo -100 real 10 1
+ 1264  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1265  ./launch.sh test ppo -100 real 10 1
+ 1266  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1267  ./launch.sh test ppo -100 real 15 1
+ 1268  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1269  ./launch.sh test ppo -100 real 15 1
+ 1270  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1271  ./launch.sh test ppo -100 real 15 1
+ 1272  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1273  ./launch.sh test ppo -100 real 5 1
+ 1274  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1275  ./launch.sh test ppo -100 real 5 1
+ 1276  ./launch.sh train ppo -100 real 15 1
+ 1277  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1278  ./launch.sh train ppo -100 real 15 1
+ 1279  ./launch.sh train ppo -100 real 9 1
+ 1280  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1281  ./launch.sh train ppo -100 real 18 1
+ 1282  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1283  ./launch.sh train ppo -100 real 20 1
+ 1284  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1285  ./launch.sh train ppo -100 real 20 1
+ 1286  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1287  ./launch.sh train ppo -100 real 8 1
+ 1288  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1289  ./launch.sh train ppo -100 real 20 1
+ 1290  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1291  ./launch.sh train ppo -100 real 20 1
+ 1292  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1293  ./launch.sh train ppo -100 real 8 1
+ 1294  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1295  ./launch.sh train ppo -100 real 20
+ 1296  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1297  ./launch.sh train ppo -100 real 19 1
+ 1298  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1299  ./launch.sh train ppo -100 real 15 1
+ 1300  ./launch.sh train ppo -100 real 20 1
+ 1301  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1302  ./launch.sh train ppo -100 real 13 1
+ 1303  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1304  ./launch.sh train ppo -100 real 20 1
+ 1305  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1306  ./launch.sh train ppo -100 real 8 1
+ 1307  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1308  ./launch.sh train ppo -100 real 15 1
+ 1309  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1310  ./launch.sh train ppo -100 real 20 1
+ 1311  ./launch.sh train ppo -100 real 20
+ 1312  ./launch.sh train ppo -100 real 9 1
+ 1313  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1314  ./launch.sh train ppo -100 real 6 1
+ 1315  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1316  ./launch.sh train ppo -100 real 18 1
+ 1317  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1318  ./launch.sh train ppo -100 real 19
+ 1319  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1320  ./launch.sh train ppo -100 real 20 1
+ 1321  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1322  ./launch.sh train ppo -100 real 8 1
+ 1323  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1324  ./launch.sh train ppo -100 real 20 1
+ 1325  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1326  ./launch.sh train ppo -100 real 20 1
+ 1327  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1328  ./launch.sh train ppo -100 real 8 1
+ 1329  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1330  ./launch.sh train ppo -100 real 20 1
+ 1331  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1332  ./launch.sh train ppo -100 real 20 1
+ 1333  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1334  ./launch.sh train ppo -100 real 8 1
+ 1335  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1336  ./launch.sh train ppo -100 real 20 1
+ 1337  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1338  ./launch.sh train ppo -100 real 20 1
+ 1339  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1340  ./launch.sh train ppo -100 real 5 1
+ 1341  ./launch.sh test ppo -100 real 15 1
+ 1342  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1343  ./launch.sh test ppo -100 real 3 1
+ 1344  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1345  ./launch.sh test ppo -100 real 5 1
+ 1346  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1347  ./launch.sh test ppo -100 real 7 1
+ 1348  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1349  ./launch.sh test ppo -100 real 15 1
+ 1350  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1351  ./launch.sh test ppo -100 real 35 1
+ 1352  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1353  ./launch.sh test ppo -100 real 35 1
+ 1354  ./launch.sh test ppo -100 real 20 1
+ 1355  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1356  ./launch.sh test ppo -100 real 35 1
+ 1357  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1358  ./launch.sh train ppo -100 real 48 1
+ 1359  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1360  ./launch.sh train ppo -100 real 48 1
+ 1361  ./launch.sh train ppo -100 real 43 1
+ 1362  ./launch.sh train ppo -100 real 48 1
+ 1363  ./launch.sh train ppo -100 real 13 1
+ 1364  ./launch.sh train ppo -100 real 48 1
+ 1365  ./launch.sh train ppo -100 real 4 1
+ 1366  ls -al
+ 1367  history > Autonav_History_1.txt
+ 1368  conda deactivate
+ 1369  conda activate sd
+ 1370  conda info --envs
+ 1371  conda activate TBMLTesting
+ 1372  roscore
+ 1373  rosclean check
+ 1374  roscore
+ 1375  rosclean check
+ 1376  roscore
+ 1377  rosclean check
+ 1378  roscore
+ 1379  rosclean check
+ 1380  rosclean purge
+ 1381  roscore
+ 1382  rosclean check
+ 1383  roscore
+ 1384  rosclean check
+ 1385  rosclean purge
+ 1386  roscore
+ 1387  rosclean check
+ 1388  roscore
+ 1389  rosclean check
+ 1390  rosclean purge
+ 1391  roscore
+ 1392  rosclean check
+ 1393  rosclean purge
+ 1394  roscore
+ 1395  ls -al
+ 1396  history > roscore_stuff_1.txt
+ 1397  conda deactivate
+ 1398  nmap -sP 192.168.1.0/24
+ 1399  cd ~/catkin_noetic_ws/src
+ 1400  ls -al
+ 1401  sudo apt-get install ros-noetic-ar-track-alvar
+ 1402  sudo apt-get install ros-kinetic-ar-track-alvar
+ 1403  git clone https://github.com/machinekoder/ar_track_alvar.git -b noetic-devel
+ 1404  cd ..
+ 1405  catkin_make --only-pkg-with-deps ar_track_alvar
+ 1406  cd src/
+ 1407  ls -al
+ 1408  git clone https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+ 1409  git clone https://github.com/ROBOTIS-GIT/turtlebot3_applications_msgs.git
+ 1410  cd ..
+ 1411  catkin_make --only-pkg-with-deps turtlebot3_applications
+ 1412  sudo nano src/turtlebot3_applications/turtlebot3_panorama/CMakeLists.txt
+ 1413  ls -al src/turtlebot3_applications
+ 1414  rm -rf src/turtlebot3_applications/turtlebot3_panorama/
+ 1415  ls -al src/turtlebot3_applications
+ 1416  catkin_make --only-pkg-with-deps turtlebot3_applications
+ 1417  nmap -sP 192.168.1.0/24
+ 1418  catkin_make --only-pkg-with-deps turtlebot3_applications_msgs
+ 1419  nmap -sP 192.168.1.0/24
+ 1420  ls -al
+ 1421  history > nmap_history.txt
+ 1422  conda deactivate
+ 1423  ssh pi@192.168.1.5
+ 1424  ssh pi@192.168.1.3
+ 1425  ssh pi@192.168.1.7
+ 1426  ssh pi@192.168.1.3
+ 1427  ssh pi@192.168.1.9
+ 1428  ssh pi@192.168.1.5
+ 1429  ssh pi@192.168.1.7
+ 1430  ssh pi@192.168.1.5
+ 1431  ssh pi@192.168.1.9
+ 1432  ssh pi@192.168.1.7
+ 1433  ls -al
+ 1434  history > remote_robot_thing.txt
+ 1435  conda deactivate
+ 1436  conda activate TBMLTesting
+ 1437  cd /home/wen-chung/catkin_noetic_ws/src/turtlebot3_applications/turtlebot3_automatic_parking_vision
+ 1438  ls -al
+ 1439  sudo nano cam_launch_ar_parking.sh
+ 1440  chmod +x cam_launch_ar_parking.sh
+ 1441  sudo chmod +x cam_launch_ar_parking.sh
+ 1442  ./cam_launch_ar_parking.sh
+ 1443  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1444  sudo nano cam_launch_ar_parking.sh
+ 1445  export TURTLEBOT3_MODEL=waffle_pi
+ 1446  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1447  sudo nano cam_launch_ar_parking.sh
+ 1448  ./cam_launch_ar_parking.sh
+ 1449  sudo nano cam_launch_ar_parking.sh
+ 1450  ./cam_launch_ar_parking.sh
+ 1451  sudo nano cam_launch_ar_parking.sh
+ 1452  ./cam_launch_ar_parking.sh
+ 1453  sudo nano cam_launch_ar_parking.sh
+ 1454  ./cam_launch_ar_parking.sh
+ 1455  sudo nano cam_launch_ar_parking.sh
+ 1456  ./cam_launch_ar_parking.sh
+ 1457  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1458  ./cam_launch_ar_parking.sh
+ 1459  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1460  ./cam_launch_ar_parking.sh
+ 1461  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1462  ./cam_launch_ar_parking.sh
+ 1463  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1464  ./cam_launch_ar_parking.sh
+ 1465  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1466  ./cam_launch_ar_parking.sh
+ 1467  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1468  ./cam_launch_ar_parking.sh
+ 1469  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1470  ./cam_launch_ar_parking.sh
+ 1471  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1472  ./cam_launch_ar_parking.sh
+ 1473  nano cam_launch_ar_parking.sh
+ 1474  sudo nano cam_launch_ar_parking.sh
+ 1475  cp cam_launch_ar_parking.sh cam_proc.sh
+ 1476  sudo nano cam_launch_ar_parking.sh
+ 1477  cp cam_proc.sh cam_proc_1.sh
+ 1478  sudo nano cam_proc.sh
+ 1479  sudo nano cam_proc_1.sh
+ 1480  sudo nano cam_proc.sh
+ 1481  sudo nano cam_proc_1.sh
+ 1482  sudo nano cam_launch_ar_parking.sh
+ 1483  ./cam_launch_ar_parking.sh
+ 1484  sudo chmod +x cam_proc.sh
+ 1485  sudo chmod +x cam_proc_1.sh
+ 1486  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1487  ./cam_launch_ar_parking.sh
+ 1488  sudo nano cam_launch_ar_parking.sh
+ 1489  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1490  ./cam_launch_ar_parking.sh
+ 1491  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1492  ./cam_launch_ar_parking.sh
+ 1493  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1494  ./cam_launch_ar_parking.sh
+ 1495  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1496  ./cam_launch_ar_parking.sh
+ 1497  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1498  ./cam_launch_ar_parking.sh
+ 1499  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1500  ./cam_launch_ar_parking.sh
+ 1501  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1502  ./cam_launch_ar_parking.sh
+ 1503  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1504  ./cam_launch_ar_parking.sh
+ 1505  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1506  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1507  ./cam_launch_ar_parking.sh
+ 1508  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1509  ./cam_launch_ar_parking.sh
+ 1510  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1511  ./cam_launch_ar_parking.sh
+ 1512  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1513  ./cam_launch_ar_parking.sh
+ 1514  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1515  ./cam_launch_ar_parking.sh
+ 1516  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1517  ./cam_launch_ar_parking.sh
+ 1518  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1519  ./cam_launch_ar_parking.sh
+ 1520  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1521  ./cam_launch_ar_parking.sh
+ 1522  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1523  ./cam_launch_ar_parking.sh
+ 1524  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1525  ./cam_launch_ar_parking.sh
+ 1526  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1527  sudo nano cam_launch_ar_parking.sh
+ 1528  ./cam_launch_ar_parking.sh
+ 1529  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1530  ./cam_launch_ar_parking.sh
+ 1531  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1532  sudo nano cam_launch_ar_parking.sh
+ 1533  ./cam_launch_ar_parking.sh
+ 1534  sudo nano cam_launch_ar_parking.sh
+ 1535  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1536  sudo nano cam_launch_ar_parking.sh
+ 1537  ./cam_launch_ar_parking.sh
+ 1538  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1539  sudo nano cam_launch_ar_parking.sh
+ 1540  ./cam_launch_ar_parking.sh
+ 1541  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1542  ./cam_launch_ar_parking.sh
+ 1543  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1544  ./cam_launch_ar_parking.sh
+ 1545  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1546  ./cam_launch_ar_parking.sh
+ 1547  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1548  ./cam_launch_ar_parking.sh
+ 1549  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1550  ./cam_launch_ar_parking.sh
+ 1551  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1552  ./cam_launch_ar_parking.sh
+ 1553  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1554  ./cam_launch_ar_parking.sh
+ 1555  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1556  ./cam_launch_ar_parking.sh
+ 1557  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1558  sudo nano cam_launch_ar_parking.sh
+ 1559  ./cam_launch_ar_parking.sh
+ 1560  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1561  ./cam_launch_ar_parking.sh
+ 1562  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1563  ./cam_launch_ar_parking.sh
+ 1564  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1565  ./cam_launch_ar_parking.sh
+ 1566  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1567  ./cam_launch_ar_parking.sh
+ 1568  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1569  ./cam_launch_ar_parking.sh
+ 1570  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1571  ./cam_launch_ar_parking.sh
+ 1572  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1573  ./cam_launch_ar_parking.sh
+ 1574  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1575  ./cam_launch_ar_parking.sh
+ 1576  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1577  ./cam_launch_ar_parking.sh
+ 1578  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1579  ./cam_launch_ar_parking.sh
+ 1580  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1581  ./cam_launch_ar_parking.sh
+ 1582  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1583  ./cam_launch_ar_parking.sh
+ 1584  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1585  ./cam_launch_ar_parking.sh
+ 1586  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1587  ./cam_launch_ar_parking.sh
+ 1588  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1589  ./cam_launch_ar_parking.sh
+ 1590  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1591  ./cam_launch_ar_parking.sh
+ 1592  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1593  sudo nano cam_launch_ar_parking.sh
+ 1594  ./cam_launch_ar_parking.sh
+ 1595  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1596  ./cam_launch_ar_parking.sh
+ 1597  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1598  ./cam_launch_ar_parking.sh
+ 1599  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1600  ./cam_launch_ar_parking.sh
+ 1601  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1602  ./cam_launch_ar_parking.sh
+ 1603  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1604  ./cam_launch_ar_parking.sh
+ 1605  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1606  ./cam_launch_ar_parking.sh
+ 1607  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1608  ./cam_launch_ar_parking.sh
+ 1609  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1610  ./cam_launch_ar_parking.sh
+ 1611  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1612  ./cam_launch_ar_parking.sh
+ 1613  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1614  ./cam_launch_ar_parking.sh
+ 1615  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1616  ./cam_launch_ar_parking.sh
+ 1617  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1618  ./cam_launch_ar_parking.sh
+ 1619  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1620  ./cam_launch_ar_parking.sh
+ 1621  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1622  ./cam_launch_ar_parking.sh
+ 1623  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1624  ./cam_launch_ar_parking.sh
+ 1625  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1626  ./cam_launch_ar_parking.sh
+ 1627  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1628  ./cam_launch_ar_parking.sh
+ 1629  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1630  ./cam_launch_ar_parking.sh
+ 1631  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1632  ./cam_launch_ar_parking.sh
+ 1633  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1634  ./cam_launch_ar_parking.sh
+ 1635  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1636  ./cam_launch_ar_parking.sh
+ 1637  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1638  ./cam_launch_ar_parking.sh
+ 1639  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1640  ./cam_launch_ar_parking.sh
+ 1641  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1642  ./cam_launch_ar_parking.sh
+ 1643  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1644  ./cam_launch_ar_parking.sh
+ 1645  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1646  ./cam_launch_ar_parking.sh
+ 1647  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1648  ./cam_launch_ar_parking.sh
+ 1649  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1650  ./cam_launch_ar_parking.sh
+ 1651  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1652  ./cam_launch_ar_parking.sh
+ 1653  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1654  ./cam_launch_ar_parking.sh
+ 1655  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1656  ./cam_launch_ar_parking.sh
+ 1657  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1658  ./cam_launch_ar_parking.sh
+ 1659  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1660  ./cam_launch_ar_parking.sh
+ 1661  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1662  ./cam_launch_ar_parking.sh
+ 1663  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1664  ./cam_launch_ar_parking.sh
+ 1665  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1666  ./cam_launch_ar_parking.sh
+ 1667  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1668  ./cam_launch_ar_parking.sh
+ 1669  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1670  ./cam_launch_ar_parking.sh
+ 1671  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1672  ./cam_launch_ar_parking.sh
+ 1673  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1674  ./cam_launch_ar_parking.sh
+ 1675  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1676  ./cam_launch_ar_parking.sh
+ 1677  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1678  ./cam_launch_ar_parking.sh
+ 1679  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1680  ./cam_launch_ar_parking.sh
+ 1681  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1682  ./cam_launch_ar_parking.sh
+ 1683  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1684  ./cam_launch_ar_parking.sh
+ 1685  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1686  ./cam_launch_ar_parking.sh
+ 1687  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1688  ./cam_launch_ar_parking.sh
+ 1689  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1690  ./cam_launch_ar_parking.sh
+ 1691  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1692  ./cam_launch_ar_parking.sh
+ 1693  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1694  ./cam_launch_ar_parking.sh
+ 1695  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1696  ./cam_launch_ar_parking.sh
+ 1697  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1698  ./cam_launch_ar_parking.sh
+ 1699  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1700  ./cam_launch_ar_parking.sh
+ 1701  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1702  ./cam_launch_ar_parking.sh
+ 1703  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1704  ./cam_launch_ar_parking.sh
+ 1705  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1706  ./cam_launch_ar_parking.sh
+ 1707  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1708  ./cam_launch_ar_parking.sh
+ 1709  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1710  ./cam_launch_ar_parking.sh
+ 1711  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1712  ./cam_launch_ar_parking.sh
+ 1713  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1714  ./cam_launch_ar_parking.sh
+ 1715  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1716  ./cam_launch_ar_parking.sh
+ 1717  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1718  ./cam_launch_ar_parking.sh
+ 1719  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1720  ./cam_launch_ar_parking.sh
+ 1721  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1722  ./cam_launch_ar_parking.sh
+ 1723  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1724  ./cam_launch_ar_parking.sh
+ 1725  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1726  ./cam_launch_ar_parking.sh
+ 1727  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1728  ./cam_launch_ar_parking.sh
+ 1729  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1730  ./cam_launch_ar_parking.sh
+ 1731  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1732  ./cam_launch_ar_parking.sh
+ 1733  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1734  ./cam_launch_ar_parking.sh
+ 1735  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1736  ./cam_launch_ar_parking.sh
+ 1737  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1738  ./cam_launch_ar_parking.sh
+ 1739  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1740  ./cam_launch_ar_parking.sh
+ 1741  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1742  ./cam_launch_ar_parking.sh
+ 1743  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1744  ./cam_launch_ar_parking.sh
+ 1745  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1746  ./cam_launch_ar_parking.sh
+ 1747  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1748  ./cam_launch_ar_parking.sh
+ 1749  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1750  ./cam_launch_ar_parking.sh
+ 1751  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1752  ./cam_launch_ar_parking.sh
+ 1753  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1754  ./cam_launch_ar_parking.sh
+ 1755  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1756  ./cam_launch_ar_parking.sh
+ 1757  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1758  ./cam_launch_ar_parking.sh
+ 1759  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1760  ./cam_launch_ar_parking.sh
+ 1761  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1762  ./cam_launch_ar_parking.sh
+ 1763  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1764  ./cam_launch_ar_parking.sh
+ 1765  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+ 1766  history > turtlebot_remote_control_keyboard.txt
+ 1767  conda deactivate
+ 1768  conda activate TBMLTesting
+ 1769  rm -rf ~/catkin_noetic_ws/src/ar_track_alvar/
+ 1770  cd ~/catkin_noetic_ws/src/
+ 1771  ls -al
+ 1772  git clone https://github.com/ros-perception/ar_track_alvar -b noetic-devel
+ 1773  catkin_make --only-pkg-with-deps ar_track_alvar
+ 1774  cd ..
+ 1775  catkin_make --only-pkg-with-deps ar_track_alvar
+ 1776  conda deactivate
+ 1777  conda activate dasfsdf
+ 1778  conda info --envs
+ 1779  conda activate TBMLTesting
+ 1780  roslaunch turtlebot3_automatic_parking_vision turtlebot3_automatic_parking_vision.launch
+ 1781  export TURTLEBOT3_MODEL=waffle_pi
+ 1782  roslaunch turtlebot3_automatic_parking_vision turtlebot3_automatic_parking_vision.launch
+ 1783  history > turtlebot_vision_commands.txt
+ 1784  conda deactivate
+ 1785  cd ~
+ 1786  conda activate TBMLTesting
+ 1787  wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
+ 1788  sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
+ 1789  sudo udevadm control --reload-rules
+ 1790  sudo udevadm trigger
+ 1791  sudo apt install libncurses5-dev:i386
+ 1792  ls -al Downloads/
+ 1793  ./Downloads/arduino-ide_2.1.1_Linux_64bit.AppImage
+ 1794  sudo ./Downloads/arduino-ide_2.1.1_Linux_64bit.AppImage
+ 1795  sudo
+ 1796  sudo "./Downloads/arduino-ide_2.1.1_Linux_64bit.AppImage"
+ 1797  sudo apt-get purge modemmanager
+ 1798  conda deactivate
+ 1799  conda activate TBMLTesting
+ 1800  cd catkin_noetic_ws/
+ 1801  cd src/
+ 1802  ls -al
+ 1803  git clone --recursive https://github.com/wangyuhuix/TRGPPO
+ 1804  cd TRGPPO/
+ 1805  pip install -r requirements.txt
+ 1806  pip install --upgrade setuptools
+ 1807  pip install -r requirements.txt
+ 1808  pip install "setuptools<58.0.0" wheel demjson
+ 1809  pip install "setuptools<58.0.0"
+ 1810  pip install -r requirements.txt
+ 1811  git clean -xdf
+ 1812  pip install -r requirements.txt
+ 1813  pip install --upgrade pip
+ 1814  pip install numpy
+ 1815  pip install -r requirements.txt
+ 1816  conda deactivate
+ 1817  pip install -r requirements.txt
+ 1818  sudo nano requirements.txt 
+ 1819  pip install -r requirements.txt
+ 1820  pip3 install -r requirements.txt
+ 1821  cat requirements.txt 
+ 1822  pip install gym[mujoco,atari,classic_control,robotics]
+ 1823  conda activate TBMLTesting
+ 1824  pip install gym[mujoco,atari,classic_control,robotics]
+ 1825  cat requirements.txt 
+ 1826  pip install demjson==2.2.4
+ 1827  pip install joblib==0.12.0
+ 1828  pip install pandas==0.22.0
+ 1829  pandas -V
+ 1830  pip show pandas
+ 1831  pip install pandas
+ 1832  cat requirements.txt 
+ 1833  pip install matplotlib==3.0.2
+ 1834  pip install tensorflow_gpu==1.15.2
+ 1835  pip install tensorflow_gpu
+ 1836  pip install tensorflow
+ 1837  pip show tensorflow
+ 1838  cat requirements.txt 
+ 1839  pip install cloudpickle==0.5.3
+ 1840  pip install cloudpickle==1.2.0
+ 1841  pip install opencv_python==3.4.0.12
+ 1842  pip install opencv_python==3.4.0.14
+ 1843  pip install --upgrade pip setuptools wheel
+ 1844  pip install opencv_python==3.4.0.14
+ 1845  python -V
+ 1846  pip install opencv_python
+ 1847  cat requirements.txt 
+ 1848  pip install scipy==1.1.0
+ 1849  pip install scipy
+ 1850  cat requirements.txt 
+ 1851  pip install numpy==1.14.1
+ 1852  pip install numpy
+ 1853  cat requirements.txt 
+ 1854  pip install gym==0.10.4
+ 1855  pip install pathos==0.2.2.1
+ 1856  cat requirements.txt 
+ 1857  pip install dotmap==1.2.20
+ 1858  pip install mpi4py 
+ 1859  sudo apt install libopenmpi-dev
+ 1860  conda install mpi4Ipy
+ 1861  conda install mpi4py
+ 1862  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1863  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=1
+ 1864  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1865  pip uninstall joblib
+ 1866  conda update --force-reinstall joblib
+ 1867  pip install joblib
+ 1868  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1869  pip show tensorflow
+ 1870  pip uninstall tensorflow
+ 1871  pip install tensorflow
+ 1872  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1873  sudo nano /home/wen-chung/catkin_noetic_ws/src/TRGPPO/baselines/ppo2_AdaClip/run.py
+ 1874  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1875  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1876  pip install mujoco_py
+ 1877  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1878  pip install -U 'mujoco-py<2.2,>=2.1'
+ 1879  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1880  sudo nano ~/.bashrc
+ 1881  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1882  source ~/.bashrc
+ 1883  conda deactivate 
+ 1884  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1885  conda deactivate
+ 1886  conda activate TBMLTesting
+ 1887  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1888  sudo nano ~/.bashrc
+ 1889  source ~/.bashrc
+ 1890  conda deactivate
+ 1891  conda activate TBMLTesting
+ 1892  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1893  sudo nano /home/wen-chung/miniconda3/envs/TBMLTesting/lib/python3.9/site-packages/mujoco_py/cymj.pyx
+ 1894  pip install "cython<3"
+ 1895  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1896  sudo apt-get install patchelf
+ 1897  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1898  pip install numpy==1.21.6
+ 1899  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1900  pip install numpy
+ 1901  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1902  pip install upgrade  numpy
+ 1903  pip install numpy
+ 1904  pip upgrade install numpy
+ 1905  pip update install numpy
+ 1906  pip update install numpy --upgrade
+ 1907  pip install numpy --upgrade
+ 1908  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1909  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1910  pip install gym[atari]
+ 1911  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1912  python -m atari_py.import_roms '/media/wen-chung/ExtremePro/New Downloads/ROM'
+ 1913  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1914  sudo nano ~/.bashrc
+ 1915  source ~/.bashrc
+ 1916  conda deactivate
+ 1917  conda activate TBMLTesting
+ 1918  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1919  sudo nano ~/.bashrc
+ 1920  ls -al /usr/local/cuda/lib64
+ 1921  ls -al /usr/local/cuda
+ 1922  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1923  sudo nano ~/.bashrc
+ 1924  source ~/.bashrc
+ 1925  conda deactivate
+ 1926  conda activate TBMLTesting
+ 1927  python -m baselines.ppo2_AdaClip.run --env=InvertedPendulum-v2 --seed=0
+ 1928  python -m baselines.ppo2_AdaClip.run --env=BeamRiderNoFrameskip-v4 --seed=0 --isatari
+ 1929  python -m baselines.ppo2_AdaClip.run --env=-100 --seed=0
+ 1930  python -m baselines.ppo2_AdaClip.run_turtlebot_env --env=-100 --seed=0
+ 1931  cd baselines/ppo2_AdaClip/
+ 1932  python -m baselines.ppo2_AdaClip.run_turtlebot_env --env=-100 --seed=0
+ 1933  python -m run_turtlebot_env --env=-100 --seed=0
+ 1934  cd ..
+ 1935  python -m baselines.ppo2_AdaClip.run_turtlebot_env --env=-100 --seed=0
+ 1936  cd ../..
+ 1937  catkin_make --only-pkg-with-deps TRGPPO
+ 1938  cd src/TRGPPO/
+ 1939  python -m baselines.ppo2_AdaClip.run_turtlebot_env --env=-100 --seed=0
+ 1940  rostopic list
+ 1941  rostopic info /scan
+ 1942  python -m baselines.ppo2_AdaClip.run_turtlebot_env --env=-100 --seed=0
+ 1943  history > TRGPPO_commands.txt
+ 1944  conda deactivate
+ 1945  sudo bash -c 'rm /var/lib/snapd/cache/*'
+ 1946  sudo apt purge snapd
+ 1947  sudo apt install snapd
+ 1948  snap install telegram-desktop
+ 1949  snap install atom
+ 1950  snap install --classic atom
+ 1951  snap install apple-music-for-linux blender brackets breaktimer canonical-livepatch chromium-ffmpeg code coin nmap shotcut snap-store snapd spotify webots
+ 1952  snap install --classic apple-music-for-linux blender brackets breaktimer canonical-livepatch chromium-ffmpeg code coin nmap shotcut snap-store snapd spotify webots
+ 1953  snap install --classic apple-music-for-linux
+ 1954  snap install --classic blender
+ 1955  snap install breaktimer canonical-livepatch chromium-ffmpeg code coin nmap shotcut snap-store snapd spotify webots
+ 1956  snap install --classic breaktimer canonical-livepatch chromium-ffmpeg code coin nmap shotcut snap-store snapd spotify webots
+ 1957  snap install --classic code
+ 1958  snap install breaktimer canonical-livepatch chromium-ffmpeg coin nmap shotcut snap-store snapd spotify webots
+ 1959  snap install --classic shotcut
+ 1960  snap install breaktimer canonical-livepatch chromium-ffmpeg coin nmap snap-store snapd spotify webots
+ 1961  sudo snap set system refresh.retain=2
+ 1962  history > snap_install_commands.txt
+ 1963  rostopic ;ist
+ 1964  rostopic list
+ 1965  rostopic echo /scan
+ 1966  rostopic echo scan
+ 1967  history > topic_preview_commands.txt
+ 1968  cd ..
+ 1969  python PlotMathFunc.py 
+ 1970  python3 PlotMathFunc.py 
+ 1971  conda exit
+ 1972  conda TBMLTesting
+ 1973  conda deactivate
+ 1974  conda activate TBMLTesting
+ 1975  python3 PlotMathFunc.py 
+ 1976  history > plot_reward_functions.txt
+ 1977  gnome-extensions list
+ 1978  gnome-extensions list --enabled
+ 1979  history > gnome_ext.txt
+ 1980  arch
+ 1981  ./frps -c ./frps.toml
+ 1982  cd frp_0.54.0_linux_amd64/
+ 1983  ./frps -c ./frps.toml
+ 1984  cd ~
+ 1985  ls -al
+ 1986  cat AutoTQToken.txt
+ 1987  ls -al
+ 1988  cat catkin_noetic_ws/src/MyReposGitHub.txt
+ 1989  sudo nano catkin_noetic_ws/src/MyReposGitHub.txt
+ 1990  conda deactivate
+ 1991  conda list
+ 1992  conda activate sdsd
+ 1993  conda info --envs
+ 1994  conda activate TBMLTesting
+ 1995  ./launch.sh test ppo -100 10 1
+ 1996  chmod +x '/home/wen-chung/catkin_noetic_ws/src/Autonav-RL-Gym-Real/src/util/result_graph_Autonav_RL_Gym_expert_data'
+ 1997  ./launch.sh test ppo -100 10 1
+ 1998  ./launch.sh test ppo -100 100 1
+ 1999  ./launch.sh test ppo -100 100
+ 2000  ./launch.sh test ppo -100 100 1
+ 2001  conda deactivate\
+ 2002  conda deactivate
+ 2003  conda activate TBMLTesting
+ 2004  nmap -sP 192.168.1.0/24
+ 2005  ssh pi@192.168.1.7
+ 2006  ssh pi@192.168.1.11
+ 2007  nmap -sP 192.168.1.0/24
+ 2008  ssh pi@192.168.1.11
+ 2009  nmap -sP 192.168.1.0/24
+ 2010  ssh pi@192.168.1.11
+ 2011  hostname -I
+ 2012  nmap -sP 172.17.0.0/24
+ 2013  nmap -sP 10.0.0.0/24
+ 2014  nmap -sP 172.17.0.0/24
+ 2015  nmap -sP 10.0.0.0/24
+ 2016  ssh pi@10.0.0.61
+ 2017  history > new_remote_history.txt
