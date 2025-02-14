@@ -1720,6 +1720,44 @@ class Env():
 
 
         self.pub_result_ExpertData.publish(self.result_ExpertData)
+        
+        
+    def DispEpisodeCSVExpertDataReward(self, scan_range, heading, current_distance, robot_pos, goal_pos, ep, past_action, obstacle_min_range, obstacle_angle, reward):
+        self.ep_number = self.ep_number + 1
+
+        # if len(past_action) == 0:
+
+        #     past_action = np.array([0., 0.])
+
+
+        log = {
+            "ep_number": self.ep_number,
+            "scan_range": scan_range,
+            "heading": heading,
+            "current_distance": current_distance,
+            "robot x pos": robot_pos[0],
+            "robot y pos": robot_pos[1],
+            "goal x pos": goal_pos[0],
+            "goal y pos": goal_pos[1],
+            "past_action v": past_action[0],
+            "past_action omega": past_action[1],
+            "closest obstacle distance": obstacle_min_range,
+            "closest obstacle heading": obstacle_angle,
+            "reward": reward
+        }
+
+        # if len(GoalRates) == 0:
+        #     self.result.data = [reward, self.respawn_goal.currentModuleIndex(), self.current_time, float("%.4f" % 0), num_goals]
+        # else:
+        #     self.result.data = [reward, self.respawn_goal.currentModuleIndex(), self.current_time, float("%.4f" % GoalRates[-1]), num_goals]
+
+        # self.result_ExpertData.data = [scan_range, heading, current_distance, robot_pos[0], robot_pos[1], goal_pos[0], goal_pos[1]]
+        self.result_ExpertData.data = scan_range + [heading, current_distance, robot_pos[0], robot_pos[1], goal_pos[0], goal_pos[1], ep, past_action[0], past_action[1], obstacle_min_range, obstacle_angle, reward]
+
+        # print(self.result_ExpertData.data)
+
+
+        self.pub_result_ExpertData.publish(self.result_ExpertData)
 
 
 

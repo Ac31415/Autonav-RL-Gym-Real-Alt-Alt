@@ -329,7 +329,8 @@ if __name__ == '__main__':
 
             state, reward, collision, goal, scan_range, heading, current_distance, robot_pos, goal_pos, past_action, obstacle_min_range, obstacle_angle = agent.step(state,ep)
             env.logExpertData(scan_range, heading, current_distance, robot_pos, goal_pos, past_action, obstacle_min_range, obstacle_angle)
-            env.DispEpisodeCSVExpertData(scan_range, heading, current_distance, robot_pos, goal_pos, ep, past_action, obstacle_min_range, obstacle_angle)
+            # env.DispEpisodeCSVExpertData(scan_range, heading, current_distance, robot_pos, goal_pos, ep, past_action, obstacle_min_range, obstacle_angle)
+            env.DispEpisodeCSVExpertDataReward(scan_range, heading, current_distance, robot_pos, goal_pos, ep, past_action, obstacle_min_range, obstacle_angle, reward)
 
             running_reward += reward
             # if (collision or goal or step == MAX_STEPS - 1):
